@@ -51,9 +51,9 @@ const EmblaCarousel = ({ fansLikeDetail }: CarouselProps) => {
         {slides.slice(0, 5).map((item) => (
           <figure
             key={item._id}
-            className='carousel_box'
+            className='carousel_box '
             onClick={() =>
-              router.push(`/podcasts/${item.podcast[0]?.podcastId}`)
+              router.push(`/home/podcasts/${item.podcast[0]?.podcastId}`)
             }
           >
             <Image

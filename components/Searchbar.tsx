@@ -14,9 +14,9 @@ const Searchbar = () => {
 
   useEffect(() => {
     if (debouncedValue) {
-      router.push(`/discover?search=${debouncedValue}`);
-    } else if (!debouncedValue && pathname === "/discover") {
-      router.push("/discover");
+      router.push(`/home/discover?search=${debouncedValue}`);
+    } else if (!debouncedValue && pathname === "/home/discover") {
+      router.push("/home/discover");
     }
   }, [router, debouncedValue, pathname]);
 

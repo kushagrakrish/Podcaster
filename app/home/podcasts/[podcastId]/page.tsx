@@ -94,7 +94,7 @@ const PodcastDetails = ({
             <>
               <EmptyState
                 title='No similar podcasts found'
-                buttonLink='/discover'
+                buttonLink='/home/discover'
                 buttonText='Discover more podcasts'
               />
             </>

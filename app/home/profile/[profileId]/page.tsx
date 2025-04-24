@@ -49,7 +49,7 @@ const ProfilePage = ({
           ) : (
             <EmptyState
               title='No podcasts found'
-              buttonLink='/discover'
+              buttonLink='/home/discover'
               buttonText='Discover more podcasts'
             />
           )}

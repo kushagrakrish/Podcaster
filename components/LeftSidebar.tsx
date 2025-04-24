@@ -31,7 +31,8 @@ const LeftSidebar = () => {
         </Link>
         {sidebarLinks?.map((item, idx) => {
           const isActive =
-            pathname === item.route || pathname.startsWith(`${item.route}/`);
+            pathname === item.route ||
+            pathname.startsWith(`${item.route}/home`);
           return (
             <Link
               href={item.route}

@@ -1,17 +1,17 @@
 export const sidebarLinks = [
   {
     imgURL: "/icons/home.svg",
-    route: "/",
+    route: "/home",
     label: "Home",
   },
   {
     imgURL: "/icons/discover.svg",
-    route: "/discover",
+    route: "/home/discover",
     label: "Discover",
   },
   {
     imgURL: "/icons/microphone.svg",
-    route: "/create-podcast",
+    route: "/home/create-podcast",
     label: "Create Podcast",
   },
 ];
